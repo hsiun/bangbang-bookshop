@@ -1,0 +1,41 @@
+
+ysquid:S41441"VUpdate this method so that its implementation is not identical to "update" on line 40.(İí®Şùÿÿÿÿ8ªÛ½À-
+V
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Ë’Š—8“ØÎÀ-
+isquid:CommentedOutCodeLineu"<This block of commented-out lines of code should be removed.(çöğÁ8ıÓÁ¹Â-
+nsquid:CommentedOutCodeLinez"<This block of commented-out lines of code should be removed.(ˆè“îÿÿÿÿÿ8ıÓÁ¹Â-
+V
+squid:S106?"9Replace this use of System.out or System.err by a logger.(Ø‡ßú8ÙöäÀ-
+nsquid:CommentedOutCodeLinen"<This block of commented-out lines of code should be removed.(“Ö‘¶úÿÿÿÿ8”à¼¿Â-
+[
+squid:S106T"9Replace this use of System.out or System.err by a logger.(”şÛáıÿÿÿÿ8ÁûòåÀ-
+[
+squid:S106\"9Replace this use of System.out or System.err by a logger.(ÆâÆ§ûÿÿÿÿ8ÁºÊÿ¿-
+nsquid:CommentedOutCodeLinek"<This block of commented-out lines of code should be removed.(Ó¥Ù¸øÿÿÿÿ8‚Ã¹Â-
+jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼¼ßµ8Ê—µåÀ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€æ‹Æ8Ê—µåÀ-
+jsquid:S1192#"LDefine a constant instead of duplicating this literal "bookInfo = " 3 times.(Ë’Š—8“ØÎÀ-
+[
+squid:S106""9Replace this use of System.out or System.err by a logger.(ãù©‰ûÿÿÿÿ8“ØÎÀ-
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ãù©‰ûÿÿÿÿ8ÊÃ½À-
+[
+squid:S106A"9Replace this use of System.out or System.err by a logger.(Á¢“çøÿÿÿÿ8†ªÿ¿-
+V
+squid:S106+"9Replace this use of System.out or System.err by a logger.(Ë’Š—8ÊÃ½À-
+[
+squid:S106@"9Replace this use of System.out or System.err by a logger.(ğàìøşÿÿÿÿ8À×åÀ-
+|squid:S1192""YDefine a constant instead of duplicating this literal "bookInfo.getContent() = " 3 times.(ãù©‰ûÿÿÿÿ8“ØÎÀ-
+U
+squid:S106["9Replace this use of System.out or System.err by a logger.(«½H8öÎÉÿ¿-
+V
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(ÑáäÈ8Ú¾ÿ¿-
+isquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(ºÆö‰8Ê—µåÀ-
+[
+squid:S1063"9Replace this use of System.out or System.err by a logger.(ãù©‰ûÿÿÿÿ8‰’šÀ-
+Nsquid:S1481m"+Remove this unused "longId" local variable.(Üûøúıÿÿÿÿ8”à¼¿Â-
+]squid:S1854m":Remove this useless assignment to local variable "longId".(Üûøúıÿÿÿÿ8”à¼¿Â-
+V
+squid:S1064"9Replace this use of System.out or System.err by a logger.(Ë’Š—8¶êšÀ-
+[
+squid:S106X"9Replace this use of System.out or System.err by a logger.(×£±ÿÿÿÿÿ8ÎÕóåÀ-

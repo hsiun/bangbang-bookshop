@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bookshop.iml" filepath="$PROJECT_DIR$/bookshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookshop-admin/bookshop-admin.iml" filepath="$PROJECT_DIR$/bookshop-admin/bookshop-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookshop-api/bookshop-api.iml" filepath="$PROJECT_DIR$/bookshop-api/bookshop-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookshop-repository/bookshop-repository.iml" filepath="$PROJECT_DIR$/bookshop-repository/bookshop-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookshop-web/bookshop-web.iml" filepath="$PROJECT_DIR$/bookshop-web/bookshop-web.iml" />
+    </modules>
+  </component>
+</project>
