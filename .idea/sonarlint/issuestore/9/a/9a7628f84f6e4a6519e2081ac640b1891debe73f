@@ -1,16 +1,16 @@
 
-msquid:S1192"JDefine a constant instead of duplicating this literal "startTime" 3 times.(‰¼©Ìùÿÿÿÿ8¨ıØ“À-
 [
-squid:S106%"9Replace this use of System.out or System.err by a logger.(»ÂÖ¸øÿÿÿÿ8Ê×“À-
-V
-squid:S1060"9Replace this use of System.out or System.err by a logger.(ö¬8ãõÚ“À-
+squid:S106"9Replace this use of System.out or System.err by a logger.(ü¯¥‹ıÿÿÿÿ8”œÔ“À-
 [
 squid:S106."9Replace this use of System.out or System.err by a logger.(»ÂÖ¸øÿÿÿÿ8¨ıØ“À-
 [
+squid:S106&"9Replace this use of System.out or System.err by a logger.(Ûäê²üÿÿÿÿ8üÌ×“À-
+V
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ö¬8ãõÚ“À-
+[
 squid:S106"9Replace this use of System.out or System.err by a logger.( º€Âûÿÿÿÿ8÷±Í“À-
 [
-squid:S106&"9Replace this use of System.out or System.err by a logger.(Ûäê²üÿÿÿÿ8üÌ×“À-
+squid:S106%"9Replace this use of System.out or System.err by a logger.(»ÂÖ¸øÿÿÿÿ8Ê×“À-
 [
 squid:S106/"9Replace this use of System.out or System.err by a logger.(’øö”ıÿÿÿÿ8¨ıØ“À-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ü¯¥‹ıÿÿÿÿ8”œÔ“À-
+msquid:S1192"JDefine a constant instead of duplicating this literal "startTime" 3 times.(‰¼©Ìùÿÿÿÿ8¨ıØ“À-

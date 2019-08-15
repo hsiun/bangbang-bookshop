@@ -18,6 +18,5 @@ public class BookshopWebApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(BookshopWebApplication.class, args);
-
     }
 }

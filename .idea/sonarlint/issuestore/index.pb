@@ -95,3 +95,5 @@ d
 Pbookshop-repository/src/main/java/com/bangbang/service/impl/BookServiceImpl.java,e/6/e6fd0dabffaecae59a61edf8b10277b036ffb4e6
 i
 9bookshop-api/src/main/java/com/bangbang/dto/FileInfo.java,5/8/5830cfa73d6979d1010f7af8ad461b67cafdc46a
+`
+0bookshop-api/src/main/java/com/bangbang/App.java,e/9/e9df9f45aeb4f6e2c51e923454f5026b455af231

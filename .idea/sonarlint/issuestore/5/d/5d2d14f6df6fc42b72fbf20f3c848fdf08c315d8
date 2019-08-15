@@ -1,7 +1,7 @@
 
-esquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(·†„¼8—é§À-
 jsquid:S00112*"FDefine and throw a dedicated exception instead of using a generic one.(¯´ƒØúÿÿÿÿ8¡Œ¨À-
+_squid:S1075 "ARefactor your code to get this URI from a customizable parameter.(ïœ¤Ê8Õ¾Ù§À-
+esquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(·†„¼8—é§À-
+_squid:S1075,"ARefactor your code to get this URI from a customizable parameter.(ĞÙÇ”8èÇ‰¨À-
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(·Ò¨üÿÿÿÿ8œÚ§À-
-_squid:S1075,"ARefactor your code to get this URI from a customizable parameter.(ĞÙÇ”8èÇ‰¨À-
-_squid:S1075 "ARefactor your code to get this URI from a customizable parameter.(ïœ¤Ê8Õ¾Ù§À-
