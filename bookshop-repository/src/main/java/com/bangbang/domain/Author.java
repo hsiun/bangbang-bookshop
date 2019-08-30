@@ -24,6 +24,8 @@ public class Author {
     @ElementCollection
     private List<Address> addresses;
 
+    private int age;
+
     public long getId() {
         return id;
     }
@@ -54,5 +56,14 @@ public class Author {
 
     public void setAddresses(List<Address> addresses) {
         this.addresses = addresses;
+    }
+
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }

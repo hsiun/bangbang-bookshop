@@ -16,6 +16,8 @@ public class BookInfo implements Serializable {
 
     public interface QueryBookDetail extends QueryBookList{};
 
+    private Long id;
+
     private String name;
 
     private String content;
@@ -36,5 +38,14 @@ public class BookInfo implements Serializable {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

@@ -17,7 +17,7 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/gao/my_code_trunk/bookshop/bookshop-api/target/surefire/surefirebooter2905189303033736072.jar /Users/gao/my_code_trunk/bookshop/bookshop-api/target/surefire 2019-07-30T16-33-53_928-jvmRun1 surefire6486587663258802730tmp surefire_07016273052913303756tmp"/>
+    <property name="sun.java.command" value="/Users/gao/my_code_trunk/bookshop/bookshop-api/target/surefire/surefirebooter1262794350746840831.jar /Users/gao/my_code_trunk/bookshop/bookshop-api/target/surefire 2019-08-27T09-38-50_296-jvmRun1 surefire391979932045156147tmp surefire_05898604264081739628tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/gao/my_code_trunk/bookshop/bookshop-api/target/test-classes:/Users/gao/my_code_trunk/bookshop/bookshop-api/target/classes:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/gao/my_code_trunk/bookshop/bookshop-api/target/surefire/surefirebooter2905189303033736072.jar"/>
+    <property name="surefire.real.class.path" value="/Users/gao/my_code_trunk/bookshop/bookshop-api/target/surefire/surefirebooter1262794350746840831.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -46,7 +46,6 @@
     <property name="localRepository" value="/Users/gao/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/m7/z5_qzy2126d3qnl3jrg523qc0000gn/T/"/>
-    <property name="idea.version" value="2017.1.5"/>
     <property name="java.version" value="1.8.0_131"/>
     <property name="user.dir" value="/Users/gao/my_code_trunk/bookshop/bookshop-api"/>
     <property name="os.arch" value="x86_64"/>

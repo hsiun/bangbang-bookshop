@@ -2,23 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd49909c-5158-4ff4-8d50-20fadbbc01ba" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/App.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bookshop-repository/target/test-classes/com/bangbang/AppTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/App.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d2d14f6df6fc42b72fbf20f3c848fdf08c315d8" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d2d14f6df6fc42b72fbf20f3c848fdf08c315d8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a7628f84f6e4a6519e2081ac640b1891debe73f" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a7628f84f6e4a6519e2081ac640b1891debe73f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4d5b3aa3eb5e95b068dbcbd0f604bbfec935587" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4d5b3aa3eb5e95b068dbcbd0f604bbfec935587" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4f909a3151e5a35d709cf72a597755e5a8ad395" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4f909a3151e5a35d709cf72a597755e5a8ad395" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/AuthorCondition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/Sex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/aspect/ServiceLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/aspect/ServiceLogAspect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookJobConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookTaskImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/AuthorSpec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/BookSpec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/support/AbstractConditionBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/support/AbstractEventConditionBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/support/QueryWraper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/support/ShopSimpleSpecification.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/AbstractDomain2InfoConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/BookShopRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/BookShopRepositoryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/Domain2InfoConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/GenericUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/QueryResultConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/RoncooNamingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookshop-repository/src/test/java/com/bangbang/service/impl/BookServiceTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bookshop.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bookshop.log.2019-08-01.0.gz" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-admin/target/bookshop-admin-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/bookshop-admin/target/bookshop-admin-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-admin/target/classes/com/bangbang/BookshopAdminApplication.class" afterPath="$PROJECT_DIR$/bookshop-admin/target/classes/com/bangbang/BookshopAdminApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bookshop-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-api/target/classes/com/bangbang/App.class" afterPath="$PROJECT_DIR$/bookshop-api/target/classes/com/bangbang/App.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-api/target/classes/com/bangbang/dto/BookCondition.class" afterPath="$PROJECT_DIR$/bookshop-api/target/classes/com/bangbang/dto/BookCondition.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-api/target/classes/com/bangbang/dto/BookInfo.class" afterPath="$PROJECT_DIR$/bookshop-api/target/classes/com/bangbang/dto/BookInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-api/target/classes/com/bangbang/dto/FileInfo.class" afterPath="$PROJECT_DIR$/bookshop-api/target/classes/com/bangbang/dto/FileInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-api/target/classes/com/bangbang/service/BookService.class" afterPath="$PROJECT_DIR$/bookshop-api/target/classes/com/bangbang/service/BookService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/bookshop-repository-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/bookshop-repository/target/bookshop-repository-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/BookshopRepositoryApplication.class" afterPath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/BookshopRepositoryApplication.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/domain/Address.class" afterPath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/domain/Address.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/domain/Author.class" afterPath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/domain/Author.class" />
@@ -29,32 +41,35 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/naming/JpaImpNamingStrategy.class" afterPath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/naming/JpaImpNamingStrategy.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/naming/JpaNamingStrategy.class" afterPath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/naming/JpaNamingStrategy.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/service/impl/BookServiceImpl.class" afterPath="$PROJECT_DIR$/bookshop-repository/target/classes/com/bangbang/service/impl/BookServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bookshop-repository/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/bookshop-repository/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/test-classes/com/bangbang/repository/BookRepositoryTest.class" afterPath="$PROJECT_DIR$/bookshop-repository/target/test-classes/com/bangbang/repository/BookRepositoryTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/BookshopWebApplication.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/BookshopWebApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/BookSecurity.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/BookSecurity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/MyAuthFailureHandle.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/MyAuthFailureHandle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/MyAuthSuccessHandle.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/MyAuthSuccessHandle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/MyUserDetailService.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/MyUserDetailService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/SecurityConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/WebConfig.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/config/WebConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/controller/BookController.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/controller/FileController.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/controller/FileController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/interceptor/TimerInterceptor.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/interceptor/TimerInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/support/ExceptionHandlerController.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/support/ExceptionHandlerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/support/WireMockTest.class" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/com/bangbang/support/WireMockTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bookshop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/bookshop-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f03d53d6-c4fd-4073-9c0b-240f14d23b0e.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/f03d53d6-c4fd-4073-9c0b-240f14d23b0e.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/bookshop-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-admin/pom.xml" afterPath="$PROJECT_DIR$/bookshop-admin/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-admin/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/bookshop-admin/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-admin/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/bookshop-admin/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bookshop-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-admin/target/surefire-reports/TEST-com.bangbang.AppTest.xml" afterPath="$PROJECT_DIR$/bookshop-admin/target/surefire-reports/TEST-com.bangbang.AppTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-admin/target/surefire-reports/com.bangbang.AppTest.txt" afterPath="$PROJECT_DIR$/bookshop-admin/target/surefire-reports/com.bangbang.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-api/bookshop-api.iml" afterPath="$PROJECT_DIR$/bookshop-api/bookshop-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-api/pom.xml" afterPath="$PROJECT_DIR$/bookshop-api/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/BookInfo.java" afterPath="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/BookInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/service/BookService.java" afterPath="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/service/BookService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-api/target/surefire-reports/TEST-com.bangbang.AppTest.xml" afterPath="$PROJECT_DIR$/bookshop-api/target/surefire-reports/TEST-com.bangbang.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/bookshop-repository.iml" afterPath="$PROJECT_DIR$/bookshop-repository/bookshop-repository.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/pom.xml" afterPath="$PROJECT_DIR$/bookshop-repository/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/BookshopRepositoryApplication.java" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/BookshopRepositoryApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/domain/Author.java" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/domain/Author.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/service/impl/BookServiceImpl.java" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/service/impl/BookServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/bookshop-repository/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/src/test/java/com/bangbang/repository/BookRepositoryTest.java" afterPath="$PROJECT_DIR$/bookshop-repository/src/test/java/com/bangbang/repository/BookRepositoryTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/classes/application.properties" afterPath="$PROJECT_DIR$/bookshop-repository/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/bookshop-repository/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-repository/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/bookshop-repository/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/BookshopWebApplication.java" afterPath="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/BookshopWebApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/bookshop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/pom.xml" afterPath="$PROJECT_DIR$/bookshop-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/BookController.java" afterPath="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/BookController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/bookshop-web/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/classes/application.properties" afterPath="$PROJECT_DIR$/bookshop-web/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookshop-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/bookshop-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,119 +135,83 @@
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="bookshop" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BookshopWebApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/BookshopWebApplication.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookshop-repository/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-              <folding>
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            <state relative-caret-position="625">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/domain/Sex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/BookController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="108" column="35" lean-forward="false" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/FileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#430#431#0" expanded="false" />
-                <element signature="e#460#461#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimerInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/interceptor/TimerInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionHandlerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/support/ExceptionHandlerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WireMockTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/support/WireMockTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/config/WebConfig.java">
+      <file leaf-file-name="AuthorRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/AuthorRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookshopRepositoryApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/BookshopRepositoryApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookJobConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookJobConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#571#572#0" expanded="false" />
-                <element signature="e#630#631#0" expanded="false" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookTaskImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookTaskImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/BookRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -262,26 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bookshop-repository/src/test/java/com/bangbang/BaseTest.java" />
-        <option value="$PROJECT_DIR$/bookshop-repository/src/test/java/com/bangbang/FirstTest.java" />
-        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/BookRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/test/java/com/bangbang/controller/BookController.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/test/java/com/bangbang/BaseTest.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/BookControllerTest.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/HelloController.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/dto/BookInfo.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/test/java/com/bangbang/controller/BookControllerTest.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/support/ExceptionHandlerController.java" />
-        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/AddressRepository.java" />
-        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/CategoryRepository.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/test/java/com/bangbang/controller/HelloControllerTest.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/dto/FileInfo.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/test/java/com/bangbang/controller/FileControllerTest.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/interceptor/TimerInterceptor.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/dto/BookCondition.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/support/WireMock.java" />
         <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/support/WireMockTest.java" />
         <option value="$PROJECT_DIR$/bookshop-web/src/main/resources/resources/login.html" />
         <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/config/MyAuthSuccessHandle.java" />
@@ -293,7 +252,6 @@
         <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/config/BookSecurity.java" />
         <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/service/BookService.java" />
-        <option value="$PROJECT_DIR$/bookshop-api/pom.xml" />
         <option value="$PROJECT_DIR$/bookshop-api/src/test/java/com/bangbang/AppTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/bookshop-repository/src/main/resources/spring/dubbo-provider.properties" />
@@ -301,18 +259,39 @@
         <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/AuthorRepository.java" />
         <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/bookshop-web/src/main/resources/spring/dubbo-consumer.properties" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/bookshop-repository/pom.xml" />
         <option value="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/BookCondition.java" />
-        <option value="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/BookInfo.java" />
         <option value="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/FileInfo.java" />
-        <option value="$PROJECT_DIR$/bookshop-repository/src/test/java/com/bangbang/repository/BookRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/pom.xml" />
-        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/BookshopRepositoryApplication.java" />
-        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/service/impl/BookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/BookController.java" />
         <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/BookshopWebApplication.java" />
+        <option value="$PROJECT_DIR$/bookshop-web/pom.xml" />
+        <option value="$PROJECT_DIR$/bookshop-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/bookshop-api/pom.xml" />
+        <option value="$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/BookInfo.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/support/ShopSimpleSpecification.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/test/java/com/bangbang/service/impl/BookServiceTest.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/domain/Author.java" />
+        <option value="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/Sex.java" />
+        <option value="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/AuthorCondition.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/test/java/com/bangbang/repository/BookRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/AuthorSpec.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/BookSpec.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/RoncooNamingStrategy.java" />
+        <option value="$PROJECT_DIR$/bookshop-api/src/main/java/org/springframework/data/domain/Sort.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/org/springframework/data/domain/Sort.java" />
+        <option value="$PROJECT_DIR$/bookshop-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/bookshop-admin/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/aspect/ServiceLog.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/aspect/ServiceLogAspect.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository.log" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/BookshopRepositoryApplication.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookTask.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookTaskImpl.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/service/BookService.java" />
         <option value="$PROJECT_DIR$/bookshop-repository/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/lock/package-info.java" />
+        <option value="$PROJECT_DIR$/bookshop-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookJobConfig.java" />
       </list>
     </option>
   </component>
@@ -337,8 +316,12 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="bookshop" />
+          <option name="myItemId" value="bookshop-repository" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -347,12 +330,8 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="bookshop" />
+          <option name="myItemId" value="bookshop-repository" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -361,7 +340,9 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -399,13 +380,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookshop-api" />
+              <option name="myItemId" value="bookshop-repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookshop-repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookshop-repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookshop-repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bangbang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -449,6 +499,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -465,17 +516,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bangbang.repository.spec" />
       <recent name="com.bangbang.service" />
       <recent name="com.bangbang" />
       <recent name="com.bangbang.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bangbang.dto" />
       <recent name="com.bangbang.repository" />
       <recent name="com.bangbang" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/lock" />
       <recent name="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang" />
-      <recent name="$PROJECT_DIR$/bookshop-web/src/main" />
+      <recent name="$PROJECT_DIR$/bookshop-repository/src/main/java" />
+      <recent name="$PROJECT_DIR$/bookshop-api/src/main/java" />
+      <recent name="$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -490,7 +546,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BookshopRepositoryApplication">
+  <component name="RunManager" selected="Spring Boot.BookshopWebApplication">
     <configuration default="false" name="BookshopWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -499,26 +555,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bangbang.BookshopWebApplication" />
-      <module name="bookshop-web" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="WireMockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bangbang.support.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bangbang.support.WireMockTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="bookshop-web" />
       <envs />
       <method />
@@ -535,7 +571,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="BookRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BookRepositoryTest.queryBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.bangbang.repository.*" />
@@ -547,6 +583,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.bangbang.repository" />
       <option name="MAIN_CLASS_NAME" value="com.bangbang.repository.BookRepositoryTest" />
+      <option name="METHOD_NAME" value="queryBookById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bangbang.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bookshop-repository" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bangbang.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.bangbang.service.impl.BookServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -561,7 +623,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BookRepositoryTest.queryBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BookRepositoryTest.testSepcAuthor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.bangbang.repository.*" />
@@ -573,7 +635,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.bangbang.repository" />
       <option name="MAIN_CLASS_NAME" value="com.bangbang.repository.BookRepositoryTest" />
-      <option name="METHOD_NAME" value="queryBookById" />
+      <option name="METHOD_NAME" value="testSepcAuthor" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1007,20 +1069,28 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.BookshopWebApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.WireMockTest" />
+    <configuration default="false" name="BookshopAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bangbang.BookshopAdminApplication" />
+      <module name="bookshop-admin" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.BookshopAdminApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.BookshopWebApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.BookshopRepositoryApplication" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BookRepositoryTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BookRepositoryTest.queryBookById" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BookRepositoryTest.queryBookById" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BookServiceTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.BookRepositoryTest.testSepcAuthor" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Spring Boot.BookshopRepositoryApplication" />
         <item index="1" class="java.lang.String" itemvalue="Spring Boot.BookshopWebApplication" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BookRepositoryTest.queryBookById" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BookRepositoryTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.WireMockTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BookRepositoryTest.testSepcAuthor" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BookServiceTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BookRepositoryTest.queryBookById" />
       </list>
     </recent_temporary>
   </component>
@@ -1053,31 +1123,34 @@
       <workItem from="1564361082632" duration="36000" />
       <workItem from="1564471682554" duration="2706000" />
       <workItem from="1564914253954" duration="84000" />
-      <workItem from="1565834585861" duration="55000" />
+      <workItem from="1565834585861" duration="116000" />
+      <workItem from="1566806217695" duration="1279000" />
+      <workItem from="1566870410175" duration="16418000" />
+      <workItem from="1567145520526" duration="1430000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookControllerTest_whenGetInfoSuccess - 2019.07.18 at 07h 53m 38s.xml">
-      <configuration name="BookControllerTest.whenGetInfoSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookControllerTest_whenGetInfoSuccess - 2019.07.18 at 08h 28m 49s.xml">
-      <configuration name="BookControllerTest.whenGetInfoSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookControllerTest_whenUpdateSuccess - 2019.07.17 at 21h 48m 21s.xml">
-      <configuration name="BookControllerTest.whenUpdateSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookRepositoryTest - 2019.07.25 at 10h 40m 19s.xml">
-      <configuration name="BookRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookRepositoryTest - 2019.07.25 at 10h 46m 10s.xml">
-      <configuration name="BookRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookRepositoryTest_queryBookById - 2019.07.25 at 14h 35m 39s.xml">
-      <configuration name="BookRepositoryTest.queryBookById" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookRepositoryTest_queryBookById - 2019.07.25 at 14h 36m 12s.xml">
       <configuration name="BookRepositoryTest.queryBookById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest_testSepcAuthor - 2019.08.28 at 16h 04m 23s.xml">
+      <configuration name="BookRepositoryTest.testSepcAuthor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest_testSepcAuthor - 2019.08.28 at 16h 06m 36s.xml">
+      <configuration name="BookRepositoryTest.testSepcAuthor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest_testSepcAuthor - 2019.08.28 at 16h 07m 52s.xml">
+      <configuration name="BookRepositoryTest.testSepcAuthor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest_testSepcAuthor - 2019.08.28 at 16h 18m 19s.xml">
+      <configuration name="BookRepositoryTest.testSepcAuthor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest_testSepcAuthor - 2019.08.28 at 16h 19m 02s.xml">
+      <configuration name="BookRepositoryTest.testSepcAuthor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookServiceTest - 2019.08.28 at 15h 39m 17s.xml">
+      <configuration name="BookServiceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FileControllerTest_whenUploadSuccess - 2019.07.18 at 19h 58m 45s.xml">
       <configuration name="FileControllerTest.whenUploadSuccess" configurationId="JUnit" />
@@ -1090,7 +1163,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51178000" />
+    <option name="totallyTimeSpent" value="70366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1099,34 +1172,34 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.49382716" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35959885" sideWeight="0.49382716" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20057307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2872493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34698796" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28313252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.59518075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28653294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25358167" sideWeight="0.49499285" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30802292" sideWeight="0.50500715" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.50617284" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1148,243 +1221,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.1.6.RELEASE/spring-boot-starter-parent-2.1.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="86" column="71" lean-forward="false" selection-start-line="86" selection-start-column="70" selection-end-line="86" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-admin/src/main/java/com/bangbang/BookshopAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-api/src/test/java/com/bangbang/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/config/spring/context/annotation/EnableDubbo.class">
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/support/AbstractEventConditionBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="39" />
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/org/apache/dubbo/config/spring/context/annotation/EnableDubbo.java">
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/support/BookSpec.java" />
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/AuthorSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/AddressRepository.java" />
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/domain/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/domain/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/domain/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/test/java/com/bangbang/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/CategoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="108" lean-forward="false" selection-start-line="10" selection-start-column="108" selection-end-line="10" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/AuthorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/resources/spring/dubbo-consumer.properties" />
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/resources/spring/dubbo-provider.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/73129a09/f03d53d6-c4fd-4073-9c0b-240f14d23b0e/bookshop.category">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/73129a09/f03d53d6-c4fd-4073-9c0b-240f14d23b0e/bookshop.SPRING_SESSION_ATTRIBUTES">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/73129a09/f03d53d6-c4fd-4073-9c0b-240f14d23b0e/bookshop.SPRING_SESSION">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/73129a09/f03d53d6-c4fd-4073-9c0b-240f14d23b0e/bookshop.persistent_logins">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/test/java/com/bangbang/repository/BookRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/BookshopRepositoryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="73" lean-forward="false" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/service/impl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/BookCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/BookInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/dto/FileInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="481">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1400,90 +1248,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/BookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+    <entry file="dbDummy://dbtable:/73129a09/f03d53d6-c4fd-4073-9c0b-240f14d23b0e/bookshop.author">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/domain/Book.java">
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/RoncooNamingStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/config/BookSecurity.java">
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/BookShopRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/config/MyAuthFailureHandle.java">
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/QueryResultConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/config/MyAuthSuccessHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="93" lean-forward="false" selection-start-line="23" selection-start-column="93" selection-end-line="23" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/config/MyUserDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="74" column="81" lean-forward="false" selection-start-line="74" selection-start-column="81" selection-end-line="74" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/config/WebConfig.java">
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/GenericUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#571#572#0" expanded="false" />
-            <element signature="e#630#631#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#430#431#0" expanded="false" />
-            <element signature="e#460#461#0" expanded="false" />
-          </folding>
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1491,60 +1292,309 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/support/WireMockTest.java">
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/AbstractDomain2InfoConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/support/BookShopRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/domain/Sex.java">
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/spec/BookSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/BookshopWebApplication.java">
+    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-api/src/main/java/org/springframework/data/domain/Sort.java" />
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/org/springframework/data/domain/PageRequest.java" />
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/org/springframework/data/domain/Sort.java" />
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/org/springframework/data/domain/PageImpl.java" />
+    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/BookshopWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
           <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
           <folding>
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="false" />
+            <element signature="e#588#589#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/interceptor/TimerInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/bookshop.log" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-web.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="204">
+          <caret line="12" column="70" lean-forward="true" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-admin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/aspect/ServiceLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/aspect/ServiceLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.8.RELEASE/spring-tx-5.1.8.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/bookshop-repository.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/java/com/bangbang/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="108" column="35" lean-forward="false" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+        <state relative-caret-position="185">
+          <caret line="102" column="36" lean-forward="false" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-15645">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-api/src/main/java/com/bangbang/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="122" column="40" lean-forward="false" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/4.1.2.RELEASE/spring-batch-core-4.1.2.RELEASE.jar!/org/springframework/batch/core/schema-mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="96" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-batch/2.1.6.RELEASE/spring-boot-starter-batch-2.1.6.RELEASE.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/73129a09/f03d53d6-c4fd-4073-9c0b-240f14d23b0e/bookshop.BATCH_JOB_EXECUTION_CONTEXT">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/73129a09/f03d53d6-c4fd-4073-9c0b-240f14d23b0e/bookshop.BATCH_JOB_EXECUTION_PARAMS">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="62" column="30" lean-forward="false" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/lock/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/lock/SingleServerRedissonConfigBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/lock/GlobalLockAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/lock/LockConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/73129a09/f03d53d6-c4fd-4073-9c0b-240f14d23b0e/bookshop.BATCH_JOB_EXECUTION">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/lock/GlobalLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/repository/AuthorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/BookshopRepositoryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookTaskImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookshop-repository/src/main/java/com/bangbang/batch/BookJobConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

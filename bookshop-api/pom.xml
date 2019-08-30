@@ -12,4 +12,13 @@
     <artifactId>bookshop-api</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-commons</artifactId>
+            <version>1.13.1.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+
 </project>

@@ -2,6 +2,8 @@ package com.bangbang.repository;
 
 import com.bangbang.BaseTest;
 import com.bangbang.domain.Book;
+import com.bangbang.dto.AuthorCondition;
+import com.bangbang.repository.spec.AuthorSpec;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.PlatformTransactionManager;
@@ -21,8 +23,27 @@ public class BookRepositoryTest extends BaseTest {
     @Autowired
     BookRepository bookRepository;
 
+
+    @Autowired
+    AuthorRepository authorRepository;
+
     @Autowired
     PlatformTransactionManager platformTransactionManager;
+
+
+
+
+    @Test
+    public void testSepcAuthor() {
+        AuthorCondition authorCondition = new AuthorCondition();
+        authorCondition.setName("test");
+        authorCondition.setAge(18);
+        authorCondition.setAgeTo(28);
+
+        //authorCondition.setSex(Sex.MAN);
+        authorRepository.findAll(new AuthorSpec(authorCondition));
+
+    }
 
 
     @Test

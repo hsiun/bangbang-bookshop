@@ -9,8 +9,10 @@ import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,29 +30,21 @@ public class BookController {
 
 
     @DeleteMapping("/{id}")
-    public void delete(@RequestBody BookInfo bookInfo) {
+    public void delete(@PathVariable Long id) {
 
-        System.out.println("bookInfo.getContent() = " + bookInfo.getContent());
-        System.out.println("bookInfo = " + bookInfo.getName());
-        bookInfo.setName("aa");
+        bookService.delete(id);
     }
 
     @PutMapping("/{id}")
     public BookInfo update(@RequestBody BookInfo bookInfo) {
 
-        System.out.println("bookInfo.getContent() = " + bookInfo.getContent());
-        System.out.println("bookInfo = " + bookInfo.getName());
-        bookInfo.setName("aa");
-        return bookInfo;
+        return bookService.update(bookInfo);
     }
 
     @PostMapping
-    public BookInfo create(@RequestBody BookInfo bookInfo) {
+    public BookInfo create(@Valid @RequestBody BookInfo bookInfo, BindingResult result) {
 
-        System.out.println("bookInfo.getContent() = " + bookInfo.getContent());
-        System.out.println("bookInfo = " + bookInfo.getName());
-        bookInfo.setName("aa");
-        return bookInfo;
+        return bookService.create(bookInfo);
     }
 
 
